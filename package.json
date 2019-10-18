@@ -1,0 +1,15 @@
+{
+  "name": "use-promised-state",
+  "version": "1.0.0",
+  "description": "A state hook for React that doesn't whinge when used after unmount.",
+  "main": "index.cjs.js",
+  "module": "index.es.js",
+  "keywords": [
+    "state",
+    "react",
+    "hook",
+    "hooks"
+  ],
+  "author": "James K Nelson <james@jamesknelson.com>",
+  "license": "MIT"
+}
