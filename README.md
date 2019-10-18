@@ -21,6 +21,8 @@ function MyComponent(props) {
 }
 ```
 
+[See demo](https://frontarm.com/demoboard/?id=acaa79a8-a64c-4d8b-8a91-a03b519988f4)
+
 
 ## Why?
 
@@ -30,7 +32,7 @@ When working with Promises in React, you'll sometimes come across errors like th
 Warning: Can't perform a React state update on an unmounted component. This is a no-op, but it indicates a memory leak in your application. To fix, cancel all subscriptions and asynchronous tasks in a useEffect cleanup function.
 ```
 
-While there are a number of situations where you *do* have a memory leak, there's another common situation where this occurs: *you've called `setState()` from a promise handler.
+While there are a number of situations where you *do* have a memory leak, there's another common situation where this occurs: *you've called `setState()` from a promise handler.*
 
 For example:
 
